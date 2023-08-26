@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    body {
+    background-color: white;
+}
+#main{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#para1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 25px;
+    font-size: 1.5em;
+    line-height: 40px;
+    border-radius: 30px;
+}
+
+#btn {
+    background-color: #dcdcdc;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    background-color: rgb(47,79,79);
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
