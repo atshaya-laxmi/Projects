@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 15px solid #b8cda6;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 15px;
+    border: none; 
+    border-bottom: 1px solid #ccc; 
+    background-color: transparent; 
+    outline: none; 
+  }
+ 
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+  input:focus, textarea:focus {
+    border-color: black; 
+  }
+  .error-message {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+  }
+  
+  .input-group .error-message {
+    display: none;
+  }
+  
+  
+  .error label {
+    color: #cc0033;
+  }
+  
+  .error input[type=text] {
+    background-color: #fce4e4;
+    border: 1px solid #cc0033;
+    outline: none;
+  }
+  
+  .error .error-message {
+    display: inline-block;
+  }

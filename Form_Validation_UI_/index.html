@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validations</h1>
+        <form id="myForm" onsubmit="return submitForm()">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required >
+            <span id="emailError" class="error-message"></span>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span id="nameError" class="error-message"></span>
+
+            <label for="purpose">Purpose:</label>
+            <input type="text" id="purpose" name="purpose" required>
+            <span id="purposeError" class="error-message"></span>
+
+            <label for="remark">Remark:</label>
+            <textarea id="remark" name="remark" rows="2" required></textarea>
+            <span id="remarkError" class="error-message"></span>
+
+            <input type="submit" value="Submit">
+        </form>
+        <div id="error"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
